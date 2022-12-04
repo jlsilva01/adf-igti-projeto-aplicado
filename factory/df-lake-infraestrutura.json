@@ -1,0 +1,9 @@
+{
+	"name": "df-lake-infraestrutura",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "61e254ff-6ba1-4f49-87fa-ad9f31c1a0e6",
+		"tenantId": "72a5ccbe-f82d-42d5-8b1d-3ad8722d801b"
+	}
+}
