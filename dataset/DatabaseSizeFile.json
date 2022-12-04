@@ -1,0 +1,31 @@
+{
+	"name": "DatabaseSizeFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_salakeinfraestrutura",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "output"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat('database_size_', formatDateTime(utcNow(), 'yyyyMMddHHmm'),'.csv')",
+					"type": "Expression"
+				},
+				"folderPath": "database_size",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "gzip",
+			"compressionLevel": "Fastest",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
