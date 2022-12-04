@@ -1,5 +1,5 @@
 {
-	"name": "DatabaseSizeFile",
+	"name": "arquivo_database_size",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_salakeinfraestrutura",
