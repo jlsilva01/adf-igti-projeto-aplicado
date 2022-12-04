@@ -1,0 +1,96 @@
+{
+	"name": "database_size",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "input"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "data",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "hostname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "database_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "database_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "state_desc",
+				"type": "nvarchar"
+			},
+			{
+				"name": "type_desc",
+				"type": "nvarchar"
+			},
+			{
+				"name": "file_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "physical_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "disk_total_size_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "disk_free_size_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "size_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "max_size_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "max_real_size_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			},
+			{
+				"name": "free_space_GB",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "datafile_size"
+		}
+	}
+}
