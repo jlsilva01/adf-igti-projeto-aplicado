@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeAthena",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
