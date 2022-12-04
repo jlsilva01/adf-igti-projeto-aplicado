@@ -1,5 +1,5 @@
 {
-	"name": "ELT",
+	"name": "copiar_dados_onpremise",
 	"properties": {
 		"activities": [
 			{
