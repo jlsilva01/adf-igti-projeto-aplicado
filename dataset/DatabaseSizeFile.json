@@ -24,6 +24,7 @@
 			"compressionCodec": "gzip",
 			"compressionLevel": "Fastest",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []

@@ -1,5 +1,5 @@
 {
-	"name": "database_size",
+	"name": "Tabela_database_size",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_sqlserver",
