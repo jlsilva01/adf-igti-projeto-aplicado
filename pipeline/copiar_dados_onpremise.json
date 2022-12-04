@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copia_Dados",
+				"name": "copia_tabela_database_size",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
