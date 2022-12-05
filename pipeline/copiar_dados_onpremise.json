@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "copia_tabela_database_size",
+				"description": " ",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
